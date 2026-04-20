@@ -1,70 +1,21 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🧩 MERN Stack User Management SystemA professional Full-Stack (MERN) application developed for Assignment 9, demonstrating seamless integration between a React frontend and a MongoDB database via a Node/Express REST API.🚀 OverviewThis project is a complete CRUD (Create, Read, Update, Delete) application. It allows users to manage a digital directory with real-time updates and persistent storage. Built with a focus on clean architecture and custom UI/UX design.✨ Key Features➕ Create: Add new users with name, email, and age validation.📖 Read: Fetch and display all users from MongoDB in a dynamic table.✏️ Update: Inline editing of user information without page reloads.🗑️ Delete: Remove records permanently with a single click.🛡️ Validation: Mongoose schemas ensure data integrity and unique email constraints.🎨 Custom UI: A sleek, modern, and responsive interface built with custom CSS (No bulky frameworks).🛠️ Tech StackTechnologyPurposeMongoDB 🍃NoSQL Database for persistent storageExpress.js 🚂Minimalist web framework for Node.jsReact.js ⚛️Frontend library for building interactive UIsNode.js 🟢JavaScript runtime for backend logicMongoose 🧊Elegant MongoDB object modeling for Node.jsAxios 📡Promise-based HTTP client for API requests📁 Project StructurePlaintextAssignment9_MERN/
+├── backend/           # Node.js & Express API
+│   ├── config/        # DB Connection setup
+│   ├── controllers/   # Business logic & CRUD functions
+│   ├── models/        # Mongoose User Schema
+│   ├── routes/        # API Endpoints mapping
+│   └── server.js      # Entry point
+├── frontend/          # React.js Application
+│   ├── src/
+│   │   ├── App.js     # Main Logic & UI
+│   │   └── App.css    # Custom Styling
+│   └── package.json
+└── README.md
+⚙️ Local Setup InstructionsTo run this project locally, follow these steps:1. PrerequisitesInstall Node.jsInstall MongoDB2. Backend SetupBashcd backend
+npm install
+# Create a .env file and add your MONGO_URI
+node server.js
+3. Frontend SetupBashcd frontend
+npm install
+npm start
+The app will run on http://localhost:3000.👤 AuthorMuhammad Ubaid Roman 🎓 BS Computer Science Student | GCUF 🛡️ Certified Ethical Hacker | Tech Hustler - LinkedIn: My LinkedIn ProfileGitHub: @Rajaubaid786⭐ If you found this project helpful, give it a star!
